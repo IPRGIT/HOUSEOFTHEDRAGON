@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llcElection"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ElectionActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvGreeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/greeting"/>
+
+    <TextView
+        android:id="@+id/explicacionEleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/explicacionEleccion"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/checkBoxRhaenyra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rhaenyra"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxAegon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aegon"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/eleccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Si no tomas una decisión no podrás salir de esta encrucijada."/>
+
+    <Button
+        android:id="@+id/btRodilla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hincarRodilla"/>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
